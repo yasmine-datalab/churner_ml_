@@ -1,11 +1,11 @@
 import sys
-sys.path.append("/Users/bguedou/churner-ml/")
+#sys.path.append("/home/yasmine/Documents/DATA354/LEARNING/MLops/churner_ml_/")
+sys.path.append("/usr/src/app")
 
 import os
 import pickle
 import pandas as pd
 from churner.ml.utils import preprocessor
-
 
 class Predictor():
 

@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyyaml = "*"
+optuna = "*"
+xgboost = "*"
+sklearn = "*"
+args = "*"
+argparse = "*"
+pandas = "*"
+flask = "*"
+bootstrap-flask = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

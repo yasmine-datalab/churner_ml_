@@ -3,7 +3,7 @@ from flask import Flask, request
 from inference import Predictor
 
 # Paramètres
-config_path = "/Users/bguedou/churner-ml/config.yaml"
+config_path = "churner/app/app_config.yaml"
 with open(config_path, 'r') as file:
     config = yaml.safe_load(file)
     
